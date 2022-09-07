@@ -14,6 +14,6 @@ public class Car extends Vehicle implements Costable {
 
     @Override
     public int getCost() {
-        return cost;
+        return this.cost;
     }
 }
