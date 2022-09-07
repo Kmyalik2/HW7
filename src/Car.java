@@ -10,7 +10,6 @@ public class Car extends Vehicle implements Costable {
 
     protected void printInfo() {
         System.out.println("Vehicle: car. - Number of doors: " + this.doorsCount + ". - Number of wheels : " + this.wheelCount + ". - Cost: " + getCost() + "$");
-
     }
 
     @Override
